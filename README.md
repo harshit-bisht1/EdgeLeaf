@@ -8,7 +8,7 @@ Edgeleaf is a free desktop reader for Mac and Windows. It stays tucked away at t
 screen until you want it. Pull it out for a page, tuck it away, and pick up exactly where you
 left off.
 
-**[Download Edgeleaf](https://harshit-bisht1.github.io/edgeleaf/)** ·
+**[Download Edgeleaf](https://harshit-bisht1.github.io/edgeleaf)** ·
 [All releases](https://github.com/harshit-bisht1/edgeleaf/releases)
 
 ## How it works
@@ -57,6 +57,8 @@ you can [buy me a coffee on Ko-fi](https://ko-fi.com/edgeleaf).
 
 ---
 
-This repository holds Edgeleaf's download page and releases. Edgeleaf is built with Tauri,
-pdf.js and other open-source software; their licences are inside the app, under
-"Acknowledgements" at the bottom of the home page.
+This repository holds Edgeleaf's download page and releases.
+
+© 2026 Harshit Bisht. All rights reserved. Edgeleaf is free to download and use, but it isn't
+open source; see the [terms](LICENSE.txt). It's built with Tauri, pdf.js and other open-source
+software, whose licences are inside the app under "Acknowledgements".

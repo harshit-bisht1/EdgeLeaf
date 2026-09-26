@@ -1,0 +1,31 @@
+Edgeleaf
+Copyright (c) 2026 Harshit Bisht. All rights reserved.
+
+Edgeleaf is free to download and use. It is not open source: these terms,
+not an open-source licence, cover the app.
+
+YOU MAY
+  - download, install and use Edgeleaf at no cost, on any number of your own
+    computers, at home or at work.
+
+YOU MAY NOT
+  - sell, rent or sublicense Edgeleaf, or distribute copies of it. To share
+    it, share the link to its download page instead;
+  - modify, adapt, translate, decompile or reverse-engineer it, except where
+    the law allows this despite this restriction;
+  - remove or change its copyright notices, or use the Edgeleaf name or logo
+    for your own products.
+
+OTHER PEOPLE'S SOFTWARE
+  Edgeleaf includes open-source components (such as Tauri, pdf.js and its
+  fonts). Each is covered by its own licence, listed in the app under
+  "Acknowledgements". Nothing in these terms limits your rights under those
+  licences.
+
+NO WARRANTY
+  Edgeleaf is provided "as is", without warranty of any kind, express or
+  implied, including fitness for a particular purpose. To the fullest extent
+  the law allows, the author is not liable for any damage or loss arising
+  from its use.
+
+These terms are governed by the laws of India.
