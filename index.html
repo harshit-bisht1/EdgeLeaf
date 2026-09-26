@@ -10,8 +10,8 @@
     <meta name="theme-color" content="#1d1916" media="(prefers-color-scheme: dark)" />
     <meta property="og:title" content="Edgeleaf — a book at the edge of your screen" />
     <meta property="og:description" content="A free, beautiful reader for Mac and Windows that hides at the screen edge. EPUB, PDF and TXT, one continuous scroll." />
-    <meta property="og:image" content="https://harshit-bisht1.github.io/EdgeLeaf/img/og.png" />
-    <link rel="canonical" href="https://harshit-bisht1.github.io/EdgeLeaf/" />
+    <meta property="og:image" content="https://harshit-bisht1.github.io/edgeleaf/img/og.png" />
+    <link rel="canonical" href="https://harshit-bisht1.github.io/edgeleaf/" />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preload" href="fonts/fraunces-latin-full-normal.woff2" as="font" type="font/woff2" crossorigin />
@@ -44,11 +44,11 @@
               pick up <i>exactly</i> where you left off.
             </p>
             <div class="cta" id="download">
-              <a class="pill" data-dl="mac" href="https://github.com/harshit-bisht1/EdgeLeaf/releases/latest">
+              <a class="pill" data-dl="mac" href="https://github.com/harshit-bisht1/edgeleaf/releases/latest">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10.5l5 5 5-5M5 20h14"/></svg>
                 Download for Mac
               </a>
-              <a class="pill quiet" data-dl="win" href="https://github.com/harshit-bisht1/EdgeLeaf/releases/latest">Windows</a>
+              <a class="pill quiet" data-dl="win" href="https://github.com/harshit-bisht1/edgeleaf/releases/latest">Windows</a>
             </div>
             <p class="meta"><span data-version>Free</span> · macOS &amp; Windows · EPUB, PDF &amp; TXT · No account</p>
           </div>
@@ -166,7 +166,7 @@
             <span>Edge<b>leaf</b></span>
           </a>
           <p>© 2026 Harshit Bisht. All rights reserved.</p>
-          <p><a href="https://github.com/harshit-bisht1/EdgeLeaf/releases">All versions</a> · <a href="LICENSE.txt">Terms</a> · <a href="https://ko-fi.com/edgeleaf" target="_blank" rel="noopener">Ko-fi</a></p>
+          <p><a href="https://github.com/harshit-bisht1/edgeleaf/releases">All versions</a> · <a href="LICENSE.txt">Terms</a> · <a href="https://ko-fi.com/edgeleaf" target="_blank" rel="noopener">Ko-fi</a></p>
         </div>
         <div>
           <div class="foot-label">Privacy</div>
@@ -180,10 +180,10 @@
     <script>
       // Point the buttons straight at the newest installers, and lead with the
       // visitor's own system. Without JavaScript they open the releases page.
-      const REPO = "harshit-bisht1/EdgeLeaf";
-      // GitHub Pages serves this page at any capitalisation of the repo name
-      // (/edgeleaf/, /EDGELEAF/...). Show the proper address either way; on the
-      // custom domain the path is just "/" and nothing changes.
+      const REPO = "harshit-bisht1/edgeleaf";
+      // Show the address in its proper capitalisation (a forwarding page may
+      // send visitors here from /EDGELEAF/ and the like). On the custom domain
+      // the path is just "/" and nothing changes.
       const name = REPO.split("/")[1];
       const typed = location.pathname.match(new RegExp(`^/${name}(?=/|$)`, "i"))?.[0];
       if (typed && typed !== `/${name}`) {
