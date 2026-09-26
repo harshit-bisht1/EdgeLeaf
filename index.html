@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Edgeleaf — a book at the edge of your screen</title>
+    <meta name="description" content="Edgeleaf is a free desktop reader for Mac and Windows that waits at the edge of your screen. Pull it out for a page, tuck it away, and pick up exactly where you left off." />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f5efe3" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#1d1916" media="(prefers-color-scheme: dark)" />
+    <meta property="og:title" content="Edgeleaf — a book at the edge of your screen" />
+    <meta property="og:description" content="A free, beautiful reader for Mac and Windows that hides at the screen edge. EPUB, PDF and TXT, one continuous scroll." />
+    <meta property="og:image" content="https://harshit-bisht1.github.io/edgeleaf/img/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="fonts/fraunces-latin-full-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="ribbon" aria-hidden="true"></div>
+
+    <div class="wrap">
+      <header class="nav">
+        <a class="brand" href="#top" aria-label="Edgeleaf">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1.5" y="3" width="21" height="18" rx="4.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M6 3h4.8v18H6a4.5 4.5 0 0 1-4.5-4.5v-9A4.5 4.5 0 0 1 6 3z" fill="currentColor"/><path d="M13 3h2.6v6.2l-1.3-1-1.3 1z" fill="var(--accent)"/></svg>
+          <span>Edge<b>leaf</b></span>
+        </a>
+        <div class="spacer"></div>
+        <a class="nav-tip" href="https://ko-fi.com/edgeleaf" target="_blank" rel="noopener">
+          <svg class="cup" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 10.5h11v3.5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z"/><path d="M15.5 11.5h1.25a2.6 2.6 0 0 1 0 5.2H15.3"/><path class="steam" d="M8.3 3.6c-.9 1.1.9 2 0 3.3"/><path class="steam" d="M11.8 3.6c-.9 1.1.9 2 0 3.3"/></svg>
+          <span>Buy me a coffee</span>
+        </a>
+        <a class="pill small" href="#download">Download</a>
+      </header>
+
+      <main>
+        <section class="hero" id="top">
+          <div>
+            <div class="eyebrow">The margin reader</div>
+            <h1 class="wordmark" aria-label="Edgeleaf">Edge<em>leaf</em></h1>
+            <p class="lede">
+              A book that waits at the edge of your screen. Pull it out for a page, tuck it away, and
+              pick up <i>exactly</i> where you left off.
+            </p>
+            <div class="cta" id="download">
+              <a class="pill" data-dl="mac" href="https://github.com/harshit-bisht1/edgeleaf/releases/latest">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10.5l5 5 5-5M5 20h14"/></svg>
+                Download for Mac
+              </a>
+              <a class="pill quiet" data-dl="win" href="https://github.com/harshit-bisht1/edgeleaf/releases/latest">Windows</a>
+            </div>
+            <p class="meta"><span data-version>Free</span> · macOS &amp; Windows · EPUB, PDF &amp; TXT · No account</p>
+          </div>
+
+          <div class="stage" aria-hidden="true">
+            <div class="screen">
+              <div class="menubar"><i></i><i></i><i></i><i></i><span class="gap"></span><i></i><span class="tray"></span></div>
+              <div class="window">
+                <div class="window-bar"><i></i><i></i><i></i></div>
+                <div class="window-lines">
+                  <span class="h"></span>
+                  <span style="--w: 92%"></span><span style="--w: 86%"></span><span style="--w: 90%"></span><span style="--w: 64%"></span>
+                  <span style="--w: 88%"></span><span style="--w: 94%"></span><span style="--w: 72%"></span>
+                  <span style="--w: 90%"></span><span style="--w: 58%"></span>
+                </div>
+              </div>
+              <div class="tab"></div>
+              <div class="panel">
+                <picture>
+                  <source srcset="img/home-dusk.webp" media="(prefers-color-scheme: dark)" />
+                  <img src="img/home-paper.webp" alt="" width="880" height="1800" />
+                </picture>
+                <picture>
+                  <source srcset="img/reader-dusk.webp" media="(prefers-color-scheme: dark)" />
+                  <img class="shot-reader" src="img/reader-paper.webp" alt="" width="880" height="1800" />
+                </picture>
+              </div>
+              <svg class="cursor" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3l14 8.5-6.2 1.3L10 19z" fill="#111" stroke="#fff" stroke-width="1.4" stroke-linejoin="round"/></svg>
+              <div class="keys"><span>⌥</span><span>⇧</span><span>B</span></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec" id="how">
+          <div class="eyebrow">Reading on the side</div>
+          <h2 class="sec-title">Always a moment away, <em>never in the way.</em></h2>
+          <div class="ways">
+            <article class="way">
+              <div class="way-art"><span class="kbd">⌥</span><span class="kbd">⇧</span><span class="kbd">B</span></div>
+              <h3>Summon it from anywhere</h3>
+              <p>One shortcut slides Edgeleaf out over whatever you’re doing, even a full-screen app. Press it again and it’s gone.</p>
+            </article>
+            <article class="way">
+              <div class="way-art"><div class="edge-art"></div></div>
+              <h3>Or rest on the edge</h3>
+              <p>Leave your cursor on the screen edge and a small tab peeks out with the book you’re reading. Click it to open.</p>
+            </article>
+            <article class="way">
+              <div class="way-art"><span class="kbd">esc</span></div>
+              <h3>Click away to tuck it</h3>
+              <p>Go back to your work and Edgeleaf slips out of sight, keeping your place to the paragraph.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="sec features">
+          <div class="feature-shot">
+            <picture>
+              <source srcset="img/home-dusk.webp" media="(prefers-color-scheme: dark)" />
+              <img src="img/home-paper.webp" alt="Edgeleaf’s home screen: a book to continue, a place to add books, and a shelf of spines" width="880" height="1800" loading="lazy" />
+            </picture>
+            <picture>
+              <source srcset="img/reader-dusk.webp" media="(prefers-color-scheme: dark)" />
+              <img src="img/reader-paper.webp" alt="Reading Pride and Prejudice in Edgeleaf, with the first sentence highlighted" width="880" height="1800" loading="lazy" />
+            </picture>
+          </div>
+          <div>
+            <div class="eyebrow">Made for reading</div>
+            <h2 class="sec-title">Everything a good book needs, <em>nothing it doesn’t.</em></h2>
+            <div class="grid">
+              <div><h3>One continuous scroll</h3><p>No page turns. EPUB, PDF and plain-text books flow as one long, beautifully set page.</p></div>
+              <div><h3>Highlights and a notebook</h3><p>Mark passages in four colours, add notes, and keep a notebook of pages for every book.</p></div>
+              <div><h3>Define any word</h3><p>Select a word to see what it means, from your Mac’s dictionary or Wiktionary.</p></div>
+              <div><h3>Shelves of your own</h3><p>Arrange books on your own shelves, or let Edgeleaf sort them by genre for you.</p></div>
+              <div><h3>Four themes, fine type</h3><p>Paper, sepia, dusk and night, with typefaces chosen for long reading. Auto-scroll when your hands are busy.</p></div>
+              <div><h3>Private by design</h3><p>No account and no tracking. Your books, highlights and notes stay on your computer.</p></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="sec" id="install">
+          <div class="eyebrow">Opening it for the first time</div>
+          <h2 class="sec-title">One extra click, <em>once.</em></h2>
+          <div class="install">
+            <div class="install-card">
+              <h3>On a Mac</h3>
+              <p>Edgeleaf isn’t signed with an Apple developer certificate yet, so macOS asks you to confirm it once:</p>
+              <ol>
+                <li>Open the download and drag <b>Edgeleaf</b> into <b>Applications</b>, then open it.</li>
+                <li>macOS says it can’t check the app. Click <b>Done</b>.</li>
+                <li>Open <b>System Settings → Privacy &amp; Security</b>, scroll down and click <b>Open Anyway</b>.</li>
+              </ol>
+              <p>From then on it opens like any other app, and lives in your menu bar.</p>
+            </div>
+            <div class="install-card">
+              <h3>On Windows</h3>
+              <p>Run the installer. If Windows shows “Windows protected your PC”, click <b>More info</b>, then <b>Run anyway</b>.</p>
+              <p>Edgeleaf lives in the system tray (it may be under the <b>^</b> arrow). Its icon turns to an outline while it’s tucked away.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="support" id="support">
+          <svg class="cup" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 10.5h11v3.5a5 5 0 0 1-5 5h-1a5 5 0 0 1-5-5z"/><path d="M15.5 11.5h1.25a2.6 2.6 0 0 1 0 5.2H15.3"/><path class="steam" d="M8.3 3.6c-.9 1.1.9 2 0 3.3"/><path class="steam" d="M11.8 3.6c-.9 1.1.9 2 0 3.3"/></svg>
+          <h2>Edgeleaf is <em>free.</em></h2>
+          <p>No trial, no ads, no account. If it earns a place at the edge of your screen, you can buy me a coffee.</p>
+          <a class="pill" href="https://ko-fi.com/edgeleaf" target="_blank" rel="noopener">Buy me a coffee on Ko-fi</a>
+        </section>
+      </main>
+
+      <footer class="foot">
+        <div>
+          <a class="brand" href="#top" aria-label="Edgeleaf">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="1.5" y="3" width="21" height="18" rx="4.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M6 3h4.8v18H6a4.5 4.5 0 0 1-4.5-4.5v-9A4.5 4.5 0 0 1 6 3z" fill="currentColor"/><path d="M13 3h2.6v6.2l-1.3-1-1.3 1z" fill="var(--accent)"/></svg>
+            <span>Edge<b>leaf</b></span>
+          </a>
+          <p>© 2026 Edgeleaf. <a href="https://github.com/harshit-bisht1/edgeleaf/releases">All versions</a> · <a href="https://ko-fi.com/edgeleaf" target="_blank" rel="noopener">Ko-fi</a></p>
+        </div>
+        <div>
+          <p><b>Privacy.</b> Edgeleaf has no account and collects nothing. Your books, highlights and notes stay on your computer. When you look up a word your Mac’s dictionary doesn’t know, that one word is sent to Wiktionary.</p>
+          <p style="margin-top: 10px">Built with Tauri, pdf.js and other open-source software. Their licences are in the app, under <b>Acknowledgements</b>.</p>
+        </div>
+      </footer>
+    </div>
+
+    <script>
+      // Point the buttons straight at the newest installers, and lead with the
+      // visitor's own system. Without JavaScript they open the releases page.
+      const REPO = "harshit-bisht1/edgeleaf";
+      const mac = document.querySelector('[data-dl="mac"]');
+      const win = document.querySelector('[data-dl="win"]');
+      if (/Windows/i.test(navigator.userAgent)) {
+        mac.classList.add("quiet");
+        mac.lastChild.textContent = " Mac";
+        win.classList.remove("quiet");
+        win.textContent = "Download for Windows";
+        win.parentNode.prepend(win);
+      }
+      fetch(`https://api.github.com/repos/${REPO}/releases/latest`)
+        .then((r) => (r.ok ? r.json() : null))
+        .then((release) => {
+          if (!release) return;
+          const find = (re) => release.assets.find((a) => re.test(a.name))?.browser_download_url;
+          mac.href = find(/universal\.dmg$/) ?? find(/\.dmg$/) ?? mac.href;
+          win.href = find(/-setup\.exe$/) ?? find(/\.msi$/) ?? win.href;
+          document.querySelector("[data-version]").textContent = `Free · ${release.tag_name}`;
+        })
+        .catch(() => {});
+    </script>
+  </body>
+</html>
