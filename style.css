@@ -925,9 +925,15 @@ section {
 .foot p {
   margin: 0;
 }
-.foot b {
+.foot-label {
+  margin: 0 0 6px;
+  font: 600 10.5px/1 var(--ui);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
   color: var(--ink-2);
-  font-weight: 600;
+}
+.foot p + .foot-label {
+  margin-top: 20px;
 }
 .foot a {
   color: var(--ink-2);
