@@ -9,6 +9,7 @@ screen until you want it. Pull it out for a page, tuck it away, and pick up exac
 left off.
 
 **[Download Edgeleaf](https://harshit-bisht1.github.io/edgeleaf)** ·
+[Try it in your browser](https://harshit-bisht1.github.io/edgeleaf/#try) ·
 [All releases](https://github.com/harshit-bisht1/edgeleaf/releases)
 
 ## How it works
@@ -23,11 +24,15 @@ left off.
 ## Features
 
 - EPUB, PDF and plain-text books, as one continuous scroll with no page turns
-- Highlights in four colours, notes, and a notebook for every book
+- Typeset like a book: chapters open with a drop cap and a small-caps first line
+- Highlights in four colours, notes, a notebook for every book, and a mark where you stopped
 - Define any word, from your Mac's dictionary or Wiktionary
-- Your own shelves, plus an automatic "by genre" view
+- Your own shelves, an automatic "by genre" view, and sets that bind a series into one
+- Mark books as reading, finished or set aside, and act on many at once
+- Fix the text without touching the file: correct a typo, mend a broken paragraph, or remove
+  every page number and site notice in a book at once
 - Four themes (paper, sepia, dusk and night), typefaces made for long reading, and auto-scroll
-- Docks on the left or right, at a quarter, a third or half of the screen
+- Docks on the left or right, at a quarter, a third or half of the screen; pin it open if you like
 
 ## Opening it for the first time
 

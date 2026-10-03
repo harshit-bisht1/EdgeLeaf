@@ -808,6 +808,60 @@ section {
   color: var(--ink-2);
 }
 
+/* Try it: the app itself, docked at the edge of a little desktop */
+.try {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(32px, 5vw, 72px);
+  align-items: center;
+}
+.try-lede {
+  margin: 18px 0 0;
+  max-width: 30em;
+  font: italic 360 clamp(17px, 1.8vw, 19px) / 1.5 var(--display);
+  font-variation-settings: "opsz" 24, "SOFT" 50;
+  color: var(--ink-2);
+  text-wrap: pretty;
+}
+.try-screen {
+  position: relative;
+  height: min(720px, 86vh);
+  border-radius: 18px;
+  overflow: hidden;
+  background:
+    radial-gradient(120% 90% at 15% 10%, var(--wall-1), transparent 60%),
+    radial-gradient(90% 80% at 90% 100%, var(--wall-3), transparent 70%),
+    linear-gradient(160deg, var(--wall-1), var(--wall-2) 55%, var(--wall-3));
+  box-shadow: var(--shadow-lg), 0 0 0 1px var(--line);
+}
+.try-window {
+  left: 5%;
+  top: 7%;
+  width: 52%;
+  height: 76%;
+}
+.try-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(440px, 72%);
+  height: 100%;
+  border: 0;
+  border-radius: 14px 0 0 14px;
+  background: transparent;
+  box-shadow: -24px 0 50px -24px rgba(0, 0, 0, 0.55);
+}
+.nav-link {
+  margin-right: 14px;
+  font: 550 14px/1 var(--ui);
+  color: var(--ink-2);
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: var(--accent);
+}
+
 /* First launch */
 .install {
   display: grid;
@@ -952,6 +1006,7 @@ section {
 
 @media (max-width: 900px) {
   .hero,
+  .try,
   .features {
     grid-template-columns: minmax(0, 1fr);
   }
@@ -982,6 +1037,16 @@ section {
   }
   .cta .pill {
     flex: 1 1 100%;
+  }
+  .try-screen {
+    height: 640px;
+  }
+  .try-window {
+    display: none;
+  }
+  .try-panel {
+    width: 100%;
+    border-radius: 14px;
   }
   .keys span {
     min-width: 26px;
